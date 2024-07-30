@@ -1,0 +1,107 @@
+/* @font-face {
+  font-family : Poppins;
+  src : url(./assets/fonts/Poppins.woff);
+} */
+
+* {
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  height: 100%;
+}
+
+/* Component NavBar */
+
+.logo {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+}
+
+.navbar {
+  background-color: red !important;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 4rem;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul li:not(:last-child) {
+  padding-right: 2rem;
+  width: 10rem;
+  text-align: center;
+}
+
+.material-symbols-outlined {
+  font-size: 2rem;
+}
+
+li:hover, .material-symbols-outlined:hover{
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  position: relative; /* Nécessaire pour positionner l'overlay correctement */
+  background-image: url("./assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 35rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-top: 2px solid #7D0E23;
+  border-bottom: 2px solid #7D0E23;
+  font-size: 4rem;
+  overflow: hidden; /* Assure que rien ne dépasse */
+}
+
+.jumbotron::before {
+  content: ""; /* Nécessaire pour créer l'élément */
+  position: absolute; /* Positionner l'overlay sur toute la surface */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.621); /* Noir avec une opacité de 0.5 */
+  z-index: 1; /* Placer l'overlay en dessous du texte */
+}
+
+.jumbotron * {
+  position: relative; /* Assure que le texte reste au-dessus de l'overlay */
+  z-index: 2; /* Placer le texte au-dessus de l'overlay */
+}
+
+
+
+
+
+
+/* table, tbody tr, thead th, tr, tbody td {
+  border : 2px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+} */
+
+
