@@ -23,7 +23,10 @@
     width: 6.5rem;
     text-align: center;
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 1.3rem;
+    font-family: Teko;
+    /* text-transform: uppercase; */
+    letter-spacing: 0.8px;
   }
   
   .material-symbols-outlined {
@@ -33,5 +36,6 @@
   
   li:hover, .material-symbols-outlined:hover{
     color: rgb(205, 181, 0);
-    cursor: pointer;
+    cursor: pointer;    
+    transition: color 0.3s ease;
   }

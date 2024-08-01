@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import '../styles/navbar.css';
+import img_logo from '../assets/icones/logo.png';
 
 function NavBarComponent() {
     const navigate = useNavigate()
@@ -11,7 +12,7 @@ function NavBarComponent() {
 return <>
     <nav class ="navbar">
         <div class="logo" onClick={() => navigateTo('/')}>
-            <img src="/assets/images/logo.png" alt="logo" />
+            <img src={img_logo} alt="logo" />
         </div>
         <ul>
             <li onClick={() => navigateTo('/coach')}>Votre coach</li>
