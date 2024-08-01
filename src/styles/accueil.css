@@ -50,10 +50,11 @@
     background-color: black;
     color: white;
     height: auto;
+    border-bottom: 1px solid rgb(202, 202, 0);
 }
 
 .section_concept h1 {
-    margin : 10px 0;
+    margin : 1rem 0;
     text-transform: uppercase;
     font-size: 2rem;
 }
@@ -62,6 +63,7 @@
     display: flex;
     justify-content: center;
     width: 80%;
+    margin-bottom: 2rem;
 }
 
 .concept_box {
@@ -79,8 +81,8 @@
 }
 
 .concept_box h4 {
-    min-height: 10vh;
-    margin: 2px 0;
+    /* min-height: 7vh; */
+    margin: 1rem 0;
     font-size: 1.1rem;
 }
 
@@ -88,4 +90,37 @@
     height: 10vh;
     display: flex;
     align-items: center;
+}
+
+/* Section info */
+
+.info_container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 3rem auto;
+}
+
+.info_container h1 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.info_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 2rem;
+    width: 80%;
+}
+
+.info_description {
+    font-size : 0.9rem;
+}
+.info_description h2 {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
 }
