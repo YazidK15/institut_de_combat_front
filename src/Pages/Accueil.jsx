@@ -1,3 +1,4 @@
+import '../styles/accueil.css';
 import JumbotronComponent from '../Components/JumbotronComponent';
 import img_salle from '../assets/images/salle.png';
 import img_agenda from '../assets/icones/agenda.png';
@@ -10,7 +11,8 @@ import img_metro from '../assets/icones/metro.png';
 import img_axes from '../assets/icones/axes.png';
 import img_bus from '../assets/icones/bus.png';
 import img_parking from '../assets/icones/parking.png';
-import '../styles/accueil.css';
+import MapComponent from '../Components/MapComponent';
+
 
 
 
@@ -123,6 +125,7 @@ function Accueil () {
                 </div>
             </div>
         </div>
+        
     </>
 }
 

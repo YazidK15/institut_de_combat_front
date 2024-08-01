@@ -3,8 +3,8 @@ import '../styles/navbar.css';
 import img_logo from '../assets/icones/logo.png';
 
 function NavBarComponent() {
+    
     const navigate = useNavigate()
-
     const navigateTo = (route) => {
         navigate(route)
     }
