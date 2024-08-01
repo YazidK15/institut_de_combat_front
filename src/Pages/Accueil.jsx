@@ -6,6 +6,10 @@ import img_thematique from '../assets/icones/thematique.png';
 import img_mma from '../assets/icones/mma.png';
 import img_lutte from '../assets/icones/lutte.png';
 import img_camera from '../assets/icones/camera.png';
+import img_metro from '../assets/icones/metro.png';
+import img_axes from '../assets/icones/axes.png';
+import img_bus from '../assets/icones/bus.png';
+import img_parking from '../assets/icones/parking.png';
 import '../styles/accueil.css';
 
 
@@ -75,6 +79,47 @@ function Accueil () {
                 </div>
                 <div className='info_image'>
                     <img src={img_camera} alt="icone d'une camera" />
+                </div>
+            </div>
+        </div>
+        <div className='section_trafic'>
+            <h1>Un lieu de +500m² sur Lille</h1>
+            <div className='trafic_container'>
+                <div className='trafic_box'>
+                    <div className='trafic_image'>
+                        <img src={img_parking} alt="icone parking" />
+                    </div>
+                    <div className='trafic_description'>
+                        <h4>Parking gratuit</h4>
+                        <p>Stationnement facile</p>
+                    </div>
+                </div>
+                <div className='trafic_box'>
+                    <div className='trafic_image'>
+                        <img src={img_axes} alt="icone axes routiers" />
+                    </div>
+                    <div className='trafic_description'>
+                        <h4>Proche des axes routiers</h4>
+                        <p>Sortie n°5</p>
+                    </div>
+                </div>
+                <div className='trafic_box'>
+                    <div className='trafic_image'>
+                        <img src={img_metro} alt="icone métro" />
+                    </div>
+                    <div className='trafic_description'>
+                        <h4>Métro à proximité</h4>
+                        <p>Arrêt Caulier - 800m</p>
+                    </div>
+                </div>
+                <div className='trafic_box'>
+                    <div className='trafic_image'>
+                        <img src={img_bus} alt="icone bus" />
+                    </div>
+                    <div className='trafic_description'>
+                        <h4>Bus à proximité</h4>
+                        <p>Arrêt Prévost - 500m</p>
+                    </div>
                 </div>
             </div>
         </div>
