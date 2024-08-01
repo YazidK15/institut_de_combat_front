@@ -1,0 +1,72 @@
+  .jumbotron {
+    position: relative; 
+    background-image: url("../assets/images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 35rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5rem;
+    overflow: hidden; 
+  }
+  
+  .jumbotron::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.754); 
+    z-index: 1; 
+  }
+  
+  .jumbotron * {
+    position: relative; 
+    z-index: 2; 
+  }
+  
+  .jumbotron button {
+    background-color: yellow;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.8rem 5rem;
+    margin-top: 4rem;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .jumbotron button:hover {
+    background-color: rgb(255, 215, 0);
+  }tron button:hover {
+    background-color: rgb(243, 210, 0);
+  }
+  
+  .typewriter {
+    display: inline-block;
+    overflow: hidden; 
+    white-space: nowrap; 
+    padding-right: 5px;
+    font-weight: bold;
+    animation: typing 6s steps(50, end) forwards, blink-caret .75s step-end infinite;
+    border-right: .15em solid rgb(251, 255, 0); /* Affiche le curseur clignotant */
+  } 
+  
+  /* Animation pour le texte qui apparaît */
+  @keyframes typing {
+    from { max-width: 0 }
+    to { max-width: 100% }
+  }
+  
+  /* Animation pour le curseur clignotant */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    40% { border-color: rgb(241, 255, 49) }
+  }
