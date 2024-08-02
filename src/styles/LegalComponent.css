@@ -1,0 +1,11 @@
+.footer_mentions {
+    display: flex;
+    flex-direction: column;
+    margin-left: 22px;
+}
+
+.footer_mentions a{
+    color: white; 
+    text-decoration: none; 
+    margin: 1px 0;
+}

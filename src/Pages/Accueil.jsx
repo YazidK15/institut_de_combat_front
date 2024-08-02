@@ -11,7 +11,7 @@ import img_metro from '../assets/icones/metro.png';
 import img_axes from '../assets/icones/axes.png';
 import img_bus from '../assets/icones/bus.png';
 import img_parking from '../assets/icones/parking.png';
-import MapComponent from '../Components/MapComponent';
+import FooterComponent from '../Components/FooterComponent';
 
 
 
@@ -124,8 +124,7 @@ function Accueil () {
                     </div>
                 </div>
             </div>
-        </div>
-        
+        </div>        
     </>
 }
 
