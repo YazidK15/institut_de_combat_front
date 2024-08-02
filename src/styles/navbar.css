@@ -1,3 +1,7 @@
+  nav {
+    box-shadow: 0 5px 10px rgba(165, 165, 165, 0.5); 
+  }
+    
   .navbar {
     color: black;
     display: flex;
@@ -6,6 +10,7 @@
     width: 90%;
     height: 4.5rem;
     margin: 0 auto;
+    background-color: white;
   }
 
   .navbar img {

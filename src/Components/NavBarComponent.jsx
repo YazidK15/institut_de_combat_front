@@ -10,17 +10,19 @@ function NavBarComponent() {
     }
 
 return <>
-    <nav class ="navbar">
-        <div class="logo" onClick={() => navigateTo('/')}>
-            <img src={img_logo} alt="logo" />
+    <nav>
+        <div class ="navbar">
+            <div class="logo" onClick={() => navigateTo('/')}>
+                <img src={img_logo} alt="logo" />
+            </div>
+            <ul>
+                <li onClick={() => navigateTo('/coach')}>Votre coach</li>
+                <li onClick={() => navigateTo('/planning')}>Planning</li>
+                <li onClick={() => navigateTo('/abonnements')}>Abonnements</li>
+                <li onClick={() => navigateTo('/disciplines')}>Disciplines</li>
+                <li onClick={() => navigateTo('/login')}><span class="material-symbols-outlined">account_circle</span></li>
+            </ul>
         </div>
-        <ul>
-            <li onClick={() => navigateTo('/coach')}>Votre coach</li>
-            <li onClick={() => navigateTo('/planning')}>Planning</li>
-            <li onClick={() => navigateTo('/abonnements')}>Abonnements</li>
-            <li onClick={() => navigateTo('/disciplines')}>Disciplines</li>
-            <li onClick={() => navigateTo('/login')}><span class="material-symbols-outlined">account_circle</span></li>
-        </ul>
     </nav>
 
 </>
