@@ -33,5 +33,10 @@
 }
 
 .discipline_image img {
+    width: 80%;
+    height: auto;
+}
+
+.discipline_image img {
     border-radius: 20px;
 }

@@ -4,6 +4,7 @@
     color: white;
     display: flex;
     flex-direction: row;
+    padding : 0px 20px;
 }
 
 .left_footer {
