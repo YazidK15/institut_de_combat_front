@@ -37,7 +37,6 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    border-bottom: 1px solid rgb(202, 202, 0);
 }
 
 /* Section concept */
@@ -148,9 +147,15 @@
     width: 80%;
     margin : 2rem auto;
 }
+
+.trafic_container img {
+    width: 30px;
+    height: 30px;
+}
+
 .trafic_box {
     display: inline-flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 0 2rem;
+    margin-right: 2rem;
+    width: 20%;
 }
