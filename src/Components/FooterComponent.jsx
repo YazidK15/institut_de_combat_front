@@ -39,15 +39,15 @@ function FooterComponent() {
                 </div>  
                 <div className='map_footer'><MapComponent/></div>
             </div>
-            <div><FormulaireComponent/></div>
+            <div className='right_footer'><FormulaireComponent/></div>
         </div>
         <div className='bot_footer'>
             <div><p>© 2024 INSTITUT DE COMBAT, Tous droits reservés.</p></div>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-      <IconButtonComponent Icon={FaInstagram} url="https://www.instagram.com" />
-      <IconButtonComponent Icon={FaLinkedin} url="https://www.linkedin.com" />
-      <IconButtonComponent Icon={FaFacebook} url="https://www.facebook.com" />
-    </div>
+            <div>
+                <IconButtonComponent Icon={FaInstagram} url="https://www.instagram.com/institutdecombat/" />
+                <IconButtonComponent Icon={FaFacebook} url="https://www.facebook.com/institutdecombat" />
+                <IconButtonComponent Icon={FaLinkedin} url="https://www.linkedin.com/company/institutdecombat/" />
+            </div>
         </div>
 
 
